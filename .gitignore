@@ -1,0 +1,57 @@
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*.so
+*.ipynb_checkpoints
+
+# Virtual environment
+.venv/
+env/
+ENV/
+venv/
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+
+# VSCode & IDEs
+.vscode/
+.idea/
+
+# OS-generated
+.DS_Store
+Thumbs.db
+
+# Logs and debugging
+*.log
+
+# Temporary test output
+*.mp4
+*.avi
+*.mov
+*.mkv
+*.webm
+*.tmp
+*.swp
+temp/
+temp_frames/
+*.png
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Secrets (if you ever use dotenv or config)
+.env
+*.secret
+
+# Pip build metadata
+pip-wheel-metadata/
+
+# Test results / coverage
+htmlcov/
+coverage.xml
+*.cover
+*.py,cover
+.cache/
+.tox/

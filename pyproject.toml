@@ -1,0 +1,29 @@
+[project]
+name = "gemma-video-kit"
+version = "0.1.0"
+description = "Utility package for video inference with Gemma Vision"
+authors = [{ name = "Kevin", email = "kevin.dave@phronetic.ai" }]
+license = "MIT"
+readme = "README.md"
+requires-python = ">=3.8"
+dependencies = [
+    "numpy",
+    "pandas",
+    "opencv-python",
+    "Pillow",
+    "transformers==4.53.0",
+    "datasets",
+    "timm>=0.1.16",
+    "trl",
+    "requests"
+]
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+
+# package-dir = {"." = "src"}
+[tool.setuptools.packages.find]
+where = ["src"]
