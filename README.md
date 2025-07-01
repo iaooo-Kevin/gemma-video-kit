@@ -1,10 +1,13 @@
-## Modules
+# Gemma Video Kit
 
-### `video_utils.py`
-- Handles video downsampling, frame extraction, and input message construction.
-- Supports local `.mp4` files and remote URLs (e.g., S3 presigned).
-- Fully tested and ready for use.
+A lightweight, modular Python package for working with **Gemma 3 / 3n models** on video-based tasks.  
+Extract frames, format prompts, and run local inference — all in one place. In the future, we plan to add support for training, finetuning and even Reinforcement Learning.
 
-### `inference.py`
-- WIP: Local inference wrapper for Gemma 3 / 3n models via Hugging Face.
-- Working for now, but subject to change as the model APIs evolve.
+---
+
+## Installation
+
+```bash
+git clone git@github.com:iaooo-Kevin/gemma-video-kit.git
+cd gemma-video-kit
+pip install -e .
