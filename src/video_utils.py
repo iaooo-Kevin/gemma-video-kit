@@ -75,6 +75,10 @@ def constructInputMessage(frames: Tuple[List[PIL.Image.Image], List[float]], Pro
             "content": []
         }
     ]
+    messages[1]['content'].append({
+        "type": "text",
+        "text": Prompt
+    })
 
     for data in frames:
         image, timestamp = data
